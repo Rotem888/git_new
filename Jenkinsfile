@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Run Python') {
                 steps {
-                     bat 'python getenv.py'
+                     bat 'getenv.py'
             }
         }
     }
