@@ -9,12 +9,10 @@ pipeline {
                 git 'https://github.com/Rotem888/gitproject.git'
             }
         }
-        stages {
-            stage('build') {
+        stage('Run Python') {
                 steps {
                      bat 'python getenv.py'
             }
         }
     }
-}
 }
