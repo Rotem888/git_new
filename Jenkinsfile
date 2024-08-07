@@ -11,8 +11,8 @@ pipeline {
         }
         stage('Run Python') {
                 steps {
-                     bat 'getenv.py'
+                     bat 'test.py'
             }
-        }  vffg
+        }
     }
 }
