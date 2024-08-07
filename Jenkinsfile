@@ -13,6 +13,6 @@ pipeline {
                 steps {
                      bat 'getenv.py'
             }
-        }
+        }  vffg
     }
 }
