@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git 'https://github.com/Rotem888/gitproject.git'
+                git 'https://github.com/Rotem888/git_new.git'
             }
         }
         stage('Run Python') {
